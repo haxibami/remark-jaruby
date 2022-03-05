@@ -1,0 +1,4 @@
+overrides:
+  - files: "test.js"
+    options:
+      trailingComma: none

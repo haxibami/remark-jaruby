@@ -1,0 +1,68 @@
+{
+  "name": "remark-jaruby",
+  "version": "0.1.0",
+  "description": "remark plugin to support Japanese ruby",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf index.d.ts",
+    "format": "prettier . -w --loglevel warn && eslint --fix .",
+    "test-type": "type-coverage",
+    "test-api": "node test.js",
+    "test-coverage": "c8 --check-coverage --branches 90 --functions 90 --lines 90 --statements 90 --reporter lcov node test.js",
+    "test": "npm run build && npm run test-type && npm run format && npm run test-coverage",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haxibami/remark-jaruby.git"
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "remark",
+    "ruby",
+    "remark-plugin",
+    "unified"
+  ],
+  "author": "haxibami <contact@haxibami.net> (https://haxibami.net)",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "strict": true,
+    "ignoreCatch": true
+  },
+  "bugs": {
+    "url": "https://github.com/haxibami/remark-jaruby/issues"
+  },
+  "homepage": "https://github.com/haxibami/remark-jaruby#readme",
+  "devDependencies": {
+    "@types/tape": "^4.13.2",
+    "c8": "^7.11.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "remark-stringify": "^10.0.2",
+    "rimraf": "^3.0.2",
+    "tape": "^5.5.2",
+    "type-coverage": "^2.21.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/mdast": "^3.0.10",
+    "mdast-util-jaruby": "^0.1.1",
+    "micromark-extension-jaruby": "^0.1.0",
+    "unified": "^10.1.1"
+  }
+}

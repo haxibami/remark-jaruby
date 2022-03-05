@@ -1,0 +1,7 @@
+env:
+  es2020: true
+extends:
+  - eslint:recommended
+  - prettier
+parserOptions:
+  sourceType: module
