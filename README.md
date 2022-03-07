@@ -1,5 +1,10 @@
 # remark-jaruby
 
+[![Node.js CI](https://github.com/haxibami/remark-jaruby/actions/workflows/node.js.yml/badge.svg)](https://github.com/haxibami/remark-jaruby/actions/workflows/node.js.yml)
+[![Node.js Package](https://github.com/haxibami/remark-jaruby/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/haxibami/remark-jaruby/actions/workflows/npm-publish.yml)
+[![codecov](https://codecov.io/gh/haxibami/remark-jaruby/branch/main/graph/badge.svg?token=TJBYUOHA0P)](https://codecov.io/gh/haxibami/remark-jaruby)
+[![GitHub license](https://img.shields.io/github/license/haxibami/remark-jaruby)](https://github.com/haxibami/remark-jaruby/blob/main/LICENSE)
+
 [remark](https://github.com/remarkjs/remark) plugin to support custom ruby syntax in markdown.
 
 ## Feature
