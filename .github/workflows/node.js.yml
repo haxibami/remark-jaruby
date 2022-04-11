@@ -34,4 +34,4 @@ jobs:
           run_install: true
       - name: Test build
         run: pnpm run test
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v3
