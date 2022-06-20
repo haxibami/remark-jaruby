@@ -47,9 +47,9 @@
   "devDependencies": {
     "@types/tape": "4.13.2",
     "c8": "7.11.3",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
-    "prettier": "2.6.2",
+    "prettier": "2.7.1",
     "rehype-stringify": "9.0.3",
     "remark-parse": "10.0.1",
     "remark-rehype": "10.1.0",
@@ -57,7 +57,7 @@
     "rimraf": "3.0.2",
     "tape": "5.5.3",
     "type-coverage": "2.21.1",
-    "typescript": "4.7.3"
+    "typescript": "4.7.4"
   },
   "dependencies": {
     "@types/mdast": "^3.0.10",
