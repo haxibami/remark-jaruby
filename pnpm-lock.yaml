@@ -15,7 +15,7 @@ specifiers:
   remark-stringify: 10.0.2
   rimraf: 3.0.2
   tape: 5.5.3
-  type-coverage: 2.21.1
+  type-coverage: 2.21.2
   typescript: 4.7.4
   unified: ^10.1.1
 
@@ -37,7 +37,7 @@ devDependencies:
   remark-stringify: 10.0.2
   rimraf: 3.0.2
   tape: 5.5.3
-  type-coverage: 2.21.1_typescript@4.7.4
+  type-coverage: 2.21.2_typescript@4.7.4
   typescript: 4.7.4
 
 packages:
@@ -1319,10 +1319,6 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimist/1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
-    dev: true
-
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: true
@@ -1726,8 +1722,8 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core/2.21.1_typescript@4.7.4:
-    resolution: {integrity: sha512-TpsLOfUE/CkHFvISitoro6hJBJoDsC9gpTMnbIofMFg13JnqnpC0n4ber4D66ks42+mkqKRXg6hgUOmQ/DR2BQ==}
+  /type-coverage-core/2.21.2_typescript@4.7.4:
+    resolution: {integrity: sha512-GM8lwpZAyurbMjg7BXHYrf5oYXQ9de140iNCKjwtWWUv2xC42oRsUsB7hpfJzFYbd9y8sXRIyDd8JAafYJPjcQ==}
     peerDependencies:
       typescript: 2 || 3 || 4
     dependencies:
@@ -1739,12 +1735,12 @@ packages:
       typescript: 4.7.4
     dev: true
 
-  /type-coverage/2.21.1_typescript@4.7.4:
-    resolution: {integrity: sha512-3NPFbC/LWDFuSCafxmLqBRLjxn40IP9g6j8FXXUXs5GbYDG3FBMX/s0bIc+i6nsXiifA1OvKTwSX2Az1LQMdbw==}
+  /type-coverage/2.21.2_typescript@4.7.4:
+    resolution: {integrity: sha512-lEoYaLQuonDnJDB3FSRt4iiKPpgsemdUK2d9sYD0Pxv4Za/G9U6RVj2DBDZQoSmPzuIcjdUczUc2RswMQx6IlQ==}
     hasBin: true
     dependencies:
-      minimist: 1.2.5
-      type-coverage-core: 2.21.1_typescript@4.7.4
+      minimist: 1.2.6
+      type-coverage-core: 2.21.2_typescript@4.7.4
     transitivePeerDependencies:
       - typescript
     dev: true
