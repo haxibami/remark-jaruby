@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/mdast': ^3.0.10
   '@types/tape': 4.13.2
-  c8: 7.11.3
+  c8: 7.12.0
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0
   mdast-util-jaruby: ^0.1.1
@@ -27,7 +27,7 @@ dependencies:
 
 devDependencies:
   '@types/tape': 4.13.2
-  c8: 7.11.3
+  c8: 7.12.0
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0_eslint@8.20.0
   prettier: 2.7.1
@@ -235,8 +235,8 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /c8/7.11.3:
-    resolution: {integrity: sha512-6YBmsaNmqRm9OS3ZbIiL2EZgi1+Xc4O24jL3vMYGE6idixYuGdy76rIfIdltSKDj9DpLNrcXSonUTR1miBD0wA==}
+  /c8/7.12.0:
+    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
@@ -1502,7 +1502,7 @@ packages:
     dev: true
 
   /require-directory/2.1.1:
-    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
