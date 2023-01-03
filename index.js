@@ -7,6 +7,7 @@ import { jaruby } from "micromark-extension-jaruby";
 import { jarubyFromMarkdown, jarubyToMarkdown } from "mdast-util-jaruby";
 
 /**
+ * @this {Processor}
  * @type {import("unified").Plugin<void[], Root>}
  */
 export default function remarkJaruby() {
