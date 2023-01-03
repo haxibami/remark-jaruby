@@ -8,7 +8,7 @@ on:
     types: [created]
 
 env:
-  node-version: 14
+  node-version: 16
   pnpm-version: latest
 
 jobs:
