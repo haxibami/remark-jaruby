@@ -16,7 +16,7 @@ specifiers:
   rimraf: 4.1.2
   tape: 5.6.3
   type-coverage: 2.24.1
-  typescript: 4.9.4
+  typescript: 4.9.5
   unified: ^10.1.1
 
 dependencies:
@@ -37,8 +37,8 @@ devDependencies:
   remark-stringify: 10.0.2
   rimraf: 4.1.2
   tape: 5.6.3
-  type-coverage: 2.24.1_typescript@4.9.4
-  typescript: 4.9.4
+  type-coverage: 2.24.1_typescript@4.9.5
+  typescript: 4.9.5
 
 packages:
 
@@ -1844,14 +1844,14 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /tsutils/3.21.0_typescript@4.9.4:
+  /tsutils/3.21.0_typescript@4.9.5:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /type-check/0.4.0:
@@ -1861,7 +1861,7 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core/2.24.1_typescript@4.9.4:
+  /type-coverage-core/2.24.1_typescript@4.9.5:
     resolution: {integrity: sha512-HZCiVINVnrekaEQuq/lKEerAZO/L7rR9vMDs+QRhTfb7HrD2OO6JDQKxJiKLJGAoGhjjQY5248mmX3t/+zLXxg==}
     peerDependencies:
       typescript: 2 || 3 || 4
@@ -1870,16 +1870,16 @@ packages:
       minimatch: 3.1.2
       normalize-path: 3.0.0
       tslib: 2.3.1
-      tsutils: 3.21.0_typescript@4.9.4
-      typescript: 4.9.4
+      tsutils: 3.21.0_typescript@4.9.5
+      typescript: 4.9.5
     dev: true
 
-  /type-coverage/2.24.1_typescript@4.9.4:
+  /type-coverage/2.24.1_typescript@4.9.5:
     resolution: {integrity: sha512-+9M6+aiiBEQZECinVLBvQUnmPrHXbI7edcdrPKxhvnLYIobvvPtpywbD3Q32vn8Y1XJHiaCSurN7T16C88htBg==}
     hasBin: true
     dependencies:
       minimist: 1.2.6
-      type-coverage-core: 2.24.1_typescript@4.9.4
+      type-coverage-core: 2.24.1_typescript@4.9.5
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -1897,8 +1897,8 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
