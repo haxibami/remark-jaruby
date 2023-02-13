@@ -47,9 +47,9 @@
   "devDependencies": {
     "@types/tape": "4.13.2",
     "c8": "7.12.0",
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
-    "prettier": "2.8.3",
+    "prettier": "2.8.4",
     "rehype-stringify": "9.0.3",
     "remark-parse": "10.0.1",
     "remark-rehype": "10.1.0",
