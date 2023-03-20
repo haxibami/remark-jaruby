@@ -15,7 +15,7 @@ specifiers:
   remark-stringify: 10.0.2
   rimraf: 4.4.0
   tape: 5.6.3
-  type-coverage: 2.24.1
+  type-coverage: 2.25.0
   typescript: 4.9.5
   unified: ^10.1.1
 
@@ -37,7 +37,7 @@ devDependencies:
   remark-stringify: 10.0.2
   rimraf: 4.4.0
   tape: 5.6.3
-  type-coverage: 2.24.1_typescript@4.9.5
+  type-coverage: 2.25.0_typescript@4.9.5
   typescript: 4.9.5
 
 packages:
@@ -1453,10 +1453,6 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimist/1.2.6:
-    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
-    dev: true
-
   /minimist/1.2.7:
     resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
     dev: true
@@ -1894,25 +1890,25 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core/2.24.1_typescript@4.9.5:
-    resolution: {integrity: sha512-HZCiVINVnrekaEQuq/lKEerAZO/L7rR9vMDs+QRhTfb7HrD2OO6JDQKxJiKLJGAoGhjjQY5248mmX3t/+zLXxg==}
+  /type-coverage-core/2.25.0_typescript@4.9.5:
+    resolution: {integrity: sha512-+ROv68mmveRCpYKq4kLEPDerCqj2YGzR8tSPXH2LLMxY5xk3zJM23Ztv/cAGoHEge4CI3S4xrcTJoWlwlhEKYA==}
     peerDependencies:
-      typescript: 2 || 3 || 4
+      typescript: 2 || 3 || 4 || 5
     dependencies:
       fast-glob: 3.2.11
-      minimatch: 3.1.2
+      minimatch: 7.4.2
       normalize-path: 3.0.0
       tslib: 2.3.1
       tsutils: 3.21.0_typescript@4.9.5
       typescript: 4.9.5
     dev: true
 
-  /type-coverage/2.24.1_typescript@4.9.5:
-    resolution: {integrity: sha512-+9M6+aiiBEQZECinVLBvQUnmPrHXbI7edcdrPKxhvnLYIobvvPtpywbD3Q32vn8Y1XJHiaCSurN7T16C88htBg==}
+  /type-coverage/2.25.0_typescript@4.9.5:
+    resolution: {integrity: sha512-Zp4x/yQlv5Le8nNR3vXlaZRtPUvtbqSXFpGhcEvocbMxVD359GsQctCUlHgHmT42CURnvRJL0PHIaFlewL64aw==}
     hasBin: true
     dependencies:
-      minimist: 1.2.6
-      type-coverage-core: 2.24.1_typescript@4.9.5
+      minimist: 1.2.7
+      type-coverage-core: 2.25.0_typescript@4.9.5
     transitivePeerDependencies:
       - typescript
     dev: true
