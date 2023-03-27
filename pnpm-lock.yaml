@@ -2,18 +2,18 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/mdast': ^3.0.10
-  '@types/tape': 4.13.2
+  '@types/tape': 4.13.3
   c8: 7.13.0
   eslint: 8.36.0
-  eslint-config-prettier: 8.7.0
+  eslint-config-prettier: 8.8.0
   mdast-util-jaruby: ^0.1.1
   micromark-extension-jaruby: ^0.1.0
-  prettier: 2.8.5
+  prettier: 2.8.7
   rehype-stringify: 9.0.3
   remark-parse: 10.0.1
   remark-rehype: 10.1.0
   remark-stringify: 10.0.2
-  rimraf: 4.4.0
+  rimraf: 4.4.1
   tape: 5.6.3
   type-coverage: 2.25.0
   typescript: 5.0.2
@@ -26,16 +26,16 @@ dependencies:
   unified: 10.1.1
 
 devDependencies:
-  '@types/tape': 4.13.2
+  '@types/tape': 4.13.3
   c8: 7.13.0
   eslint: 8.36.0
-  eslint-config-prettier: 8.7.0_eslint@8.36.0
-  prettier: 2.8.5
+  eslint-config-prettier: 8.8.0_eslint@8.36.0
+  prettier: 2.8.7
   rehype-stringify: 9.0.3
   remark-parse: 10.0.1
   remark-rehype: 10.1.0
   remark-stringify: 10.0.2
-  rimraf: 4.4.0
+  rimraf: 4.4.1
   tape: 5.6.3
   type-coverage: 2.25.0_typescript@5.0.2
   typescript: 5.0.2
@@ -176,8 +176,15 @@ packages:
     resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
 
-  /@types/tape/4.13.2:
-    resolution: {integrity: sha512-V1ez/RtYRGN9cNYApw5xf27DpMkTB0033X6a2i3KUmKhSojBfbWN0i3EgZxboUG96WJLHLdOyZ01aiZwVW5aSA==}
+  /@types/tape/4.13.3:
+    resolution: {integrity: sha512-3VSeERQfDirXbFGeYPj8ooHF/xMC/l97wVQmHNafFm9+C6Ocm4DA5rN13nHqUbO5XIOYPeqJ27lHxxl08EjmIw==}
+    dependencies:
+      '@types/node': 17.0.21
+      '@types/through': 0.0.30
+    dev: true
+
+  /@types/through/0.0.30:
+    resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
     dependencies:
       '@types/node': 17.0.21
     dev: true
@@ -522,8 +529,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.7.0_eslint@8.36.0:
-    resolution: {integrity: sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==}
+  /eslint-config-prettier/8.8.0_eslint@8.36.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1581,8 +1588,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.5:
-    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -1681,8 +1688,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rimraf/4.4.0:
-    resolution: {integrity: sha512-X36S+qpCUR0HjXlkDe4NAOhS//aHH0Z+h8Ckf2auGJk3PTnx5rLmrHkwNdbVQuCSUhOyFrlRvFEllZOYE+yZGQ==}
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
