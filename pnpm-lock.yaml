@@ -16,8 +16,8 @@ dependencies:
 
 devDependencies:
   '@types/tape':
-    specifier: 4.13.4
-    version: 4.13.4
+    specifier: 5.6.0
+    version: 5.6.0
   c8:
     specifier: 7.13.0
     version: 7.13.0
@@ -198,8 +198,8 @@ packages:
     resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
 
-  /@types/tape@4.13.4:
-    resolution: {integrity: sha512-0Mw8/FAMheD2MvyaFYDaAix7X5GfNjl/XI+zvqJdzC6N05BmHKz6Hwn+r7+8PEXDEKrC3V/irC9z7mrl5a130g==}
+  /@types/tape@5.6.0:
+    resolution: {integrity: sha512-yt27qxGg45IVJ0i2PdbYopND9d4eaXwne/jpi0saYb7PHYu8ZYaQB+cADjj+YZkZZjCM4rnhMPYFGd6+M8sWKg==}
     dependencies:
       '@types/node': 17.0.21
       '@types/through': 0.0.30
