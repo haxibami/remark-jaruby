@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/haxibami/remark-jaruby#readme",
   "devDependencies": {
-    "@types/tape": "4.13.4",
+    "@types/tape": "5.6.0",
     "c8": "7.13.0",
     "eslint": "8.41.0",
     "eslint-config-prettier": "8.8.0",
