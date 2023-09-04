@@ -32,8 +32,8 @@ devDependencies:
     specifier: 9.0.0
     version: 9.0.0(eslint@8.48.0)
   prettier:
-    specifier: 3.0.2
-    version: 3.0.2
+    specifier: 3.0.3
+    version: 3.0.3
   rehype-stringify:
     specifier: 9.0.4
     version: 9.0.4
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 5.6.6
     version: 5.6.6
   type-coverage:
-    specifier: 2.26.1
-    version: 2.26.1(typescript@5.2.2)
+    specifier: 2.26.2
+    version: 2.26.2(typescript@5.2.2)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -1656,8 +1656,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -1970,8 +1970,8 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core@2.26.1(typescript@5.2.2):
-    resolution: {integrity: sha512-KoGejLimF+LPr/JKdgo6fmaHIn5FJ74xCzUt3lSbcoPVDLDbqBGQQ3rizkQJmSV0R6/35iIbE16ln0atkwNE+g==}
+  /type-coverage-core@2.26.2(typescript@5.2.2):
+    resolution: {integrity: sha512-hGpp16H1Zbh8vVOed1xzJC9ohIh8WsEsLTLfH1E4QTuAeBMV2fvnWopya5/J9wCeWzzJOG4TgkPtRcRTRJj2XQ==}
     peerDependencies:
       typescript: 2 || 3 || 4 || 5
     dependencies:
@@ -1983,12 +1983,12 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /type-coverage@2.26.1(typescript@5.2.2):
-    resolution: {integrity: sha512-+jAw8ppSb18zSYB5DttEn4IBcNXESNh1g8pyqajz8I0wUPauDDWx1cyTvSucmMfKaDSWMeK3HJW08WCQL9suaQ==}
+  /type-coverage@2.26.2(typescript@5.2.2):
+    resolution: {integrity: sha512-sA2gan2mx3kups4MgSX74lH6cZjCKmQp7o1kfYiGszcjKEt3+TfZnt4fZUAivXPuYm2PbxGDJU4f9d688WuIew==}
     hasBin: true
     dependencies:
       minimist: 1.2.8
-      type-coverage-core: 2.26.1(typescript@5.2.2)
+      type-coverage-core: 2.26.2(typescript@5.2.2)
     transitivePeerDependencies:
       - typescript
     dev: true
