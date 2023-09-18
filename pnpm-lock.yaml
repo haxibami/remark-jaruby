@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@types/tape':
-    specifier: 5.6.0
-    version: 5.6.0
+    specifier: 5.6.1
+    version: 5.6.1
   c8:
     specifier: 8.0.1
     version: 8.0.1
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 5.6.6
     version: 5.6.6
   type-coverage:
-    specifier: 2.26.2
-    version: 2.26.2(typescript@5.2.2)
+    specifier: 2.26.3
+    version: 2.26.3(typescript@5.2.2)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -219,8 +219,8 @@ packages:
     resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
 
-  /@types/tape@5.6.0:
-    resolution: {integrity: sha512-yt27qxGg45IVJ0i2PdbYopND9d4eaXwne/jpi0saYb7PHYu8ZYaQB+cADjj+YZkZZjCM4rnhMPYFGd6+M8sWKg==}
+  /@types/tape@5.6.1:
+    resolution: {integrity: sha512-Rs3uJYjo+oAtF+X/icS75nIa/tnPmZEuFqxwZW456+PfM0gqyqDh4fU9Mp0msFkeeFzvLPp7F7nDfw1yYDLJVA==}
     dependencies:
       '@types/node': 17.0.21
       '@types/through': 0.0.30
@@ -1970,8 +1970,8 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core@2.26.2(typescript@5.2.2):
-    resolution: {integrity: sha512-hGpp16H1Zbh8vVOed1xzJC9ohIh8WsEsLTLfH1E4QTuAeBMV2fvnWopya5/J9wCeWzzJOG4TgkPtRcRTRJj2XQ==}
+  /type-coverage-core@2.26.3(typescript@5.2.2):
+    resolution: {integrity: sha512-rzNdW/tClHJvsUiy787b/UX53bNh1Dn7A5KqZDQjkL3j7iKFv/KnTolxDBBgTPcK4Zn9Ab7WLrik7cXw2oZZqw==}
     peerDependencies:
       typescript: 2 || 3 || 4 || 5
     dependencies:
@@ -1983,12 +1983,12 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /type-coverage@2.26.2(typescript@5.2.2):
-    resolution: {integrity: sha512-sA2gan2mx3kups4MgSX74lH6cZjCKmQp7o1kfYiGszcjKEt3+TfZnt4fZUAivXPuYm2PbxGDJU4f9d688WuIew==}
+  /type-coverage@2.26.3(typescript@5.2.2):
+    resolution: {integrity: sha512-gDD8D2mnBngM/lJFYv3zNUf0/GGh9u+JkcNiTDljKNpWVnwzZa0fmI38CPJR0oYF7ALnV26xeN+BoyMubS/nwg==}
     hasBin: true
     dependencies:
       minimist: 1.2.8
-      type-coverage-core: 2.26.2(typescript@5.2.2)
+      type-coverage-core: 2.26.3(typescript@5.2.2)
     transitivePeerDependencies:
       - typescript
     dev: true
