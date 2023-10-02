@@ -54,7 +54,7 @@
     "remark-parse": "10.0.2",
     "remark-rehype": "10.1.0",
     "remark-stringify": "10.0.3",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.5",
     "tape": "5.7.0",
     "type-coverage": "2.26.3",
     "typescript": "5.2.2"
