@@ -50,11 +50,11 @@ devDependencies:
     specifier: 5.0.5
     version: 5.0.5
   tape:
-    specifier: 5.7.0
-    version: 5.7.0
+    specifier: 5.7.1
+    version: 5.7.1
   type-coverage:
-    specifier: 2.26.3
-    version: 2.26.3(typescript@5.2.2)
+    specifier: 2.27.0
+    version: 2.27.0(typescript@5.2.2)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -164,12 +164,14 @@ packages:
     resolution: {integrity: sha512-skQiAOrCfO7vRTq53cxznMpks7wS1va95UCidALlOVWqvBAzwPVErwizDwoMqNVMEn1mDq0utxZd02eIrvF1lw==}
     engines: {node: '>= 0.4'}
     dependencies:
-      '@ljharb/through': 2.3.9
+      '@ljharb/through': 2.3.11
     dev: true
 
-  /@ljharb/through@2.3.9:
-    resolution: {integrity: sha512-yN599ZBuMPPK4tdoToLlvgJB4CLK8fGl7ntfy0Wn7U6ttNvHYurd81bfUiK/6sMkiIwm65R6ck4L6+Y3DfVbNQ==}
+  /@ljharb/through@2.3.11:
+    resolution: {integrity: sha512-ccfcIDlogiXNq5KcbAwbaO7lMh3Tm1i3khMPYpxlK8hH/W53zN81KM9coerRLOnTGu3nfXIniAmQbRI9OxbC0w==}
     engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -487,11 +489,11 @@ packages:
       object-is: 1.1.5
       object-keys: 1.1.1
       object.assign: 4.1.4
-      regexp.prototype.flags: 1.5.0
+      regexp.prototype.flags: 1.5.1
       side-channel: 1.0.4
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.1
-      which-typed-array: 1.1.9
+      which-typed-array: 1.1.11
     dev: true
 
   /deep-is@0.1.4:
@@ -1048,15 +1050,6 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
-  /internal-slot@1.0.4:
-    resolution: {integrity: sha512-tA8URYccNzMo94s5MQZgH8NB/XTa6HsOo0MLfXTKKEnHVVdegzaQoFZ7Jp44bdvLvY2waT5dc+j5ICEswhi7UQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      get-intrinsic: 1.2.1
-      has: 1.0.3
-      side-channel: 1.0.4
-    dev: true
-
   /internal-slot@1.0.5:
     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
     engines: {node: '>= 0.4'}
@@ -1079,7 +1072,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.12
     dev: true
 
   /is-bigint@1.0.4:
@@ -1105,8 +1098,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /is-core-module@2.11.0:
-    resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
+  /is-core-module@2.13.0:
+    resolution: {integrity: sha512-Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -1195,17 +1188,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       has-symbols: 1.0.3
-    dev: true
-
-  /is-typed-array@1.1.10:
-    resolution: {integrity: sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
-      for-each: 0.3.3
-      gopd: 1.0.1
-      has-tostringtag: 1.0.0
     dev: true
 
   /is-typed-array@1.1.12:
@@ -1750,15 +1732,6 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /regexp.prototype.flags@1.5.0:
-    resolution: {integrity: sha512-0SutC3pNudRKgquxGoRGIz946MZVHqbNfPjBdxeOhBrdgDKlRoXmYLQN9xRbrR09ZXWeGAdPuif7egofn6v5LA==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.2.0
-      functions-have-names: 1.2.3
-    dev: true
-
   /regexp.prototype.flags@1.5.1:
     resolution: {integrity: sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==}
     engines: {node: '>= 0.4'}
@@ -1813,11 +1786,11 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve@2.0.0-next.4:
-    resolution: {integrity: sha512-iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==}
+  /resolve@2.0.0-next.5:
+    resolution: {integrity: sha512-U7WjGVG9sH8tvjW5SmGbQuui75FiyjAX72HX15DwBBwF9dNiQZRQAg9nnPhYy+TUnE0+VcrttuvNI8oSxZcocA==}
     hasBin: true
     dependencies:
-      is-core-module: 2.11.0
+      is-core-module: 2.13.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -1930,7 +1903,7 @@ packages:
     resolution: {integrity: sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      internal-slot: 1.0.4
+      internal-slot: 1.0.5
     dev: true
 
   /string-width@4.2.3:
@@ -2014,12 +1987,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tape@5.7.0:
-    resolution: {integrity: sha512-6EZoHjMDUUhet8+k32w/9onULL1U8idXKvBCnZxuZF2iFe+tMYOsKo4bpCtXbTSngZmYBnkU08TMhJwsKaHhaw==}
+  /tape@5.7.1:
+    resolution: {integrity: sha512-5U2nU0PbvWXXtJxE0hFv78VSyhJiyEPq1wNtMCWUxt17SZbeBqs9V5zcyDqkyguYN39d8qAjZxfFkjJ1+kB4yA==}
     hasBin: true
     dependencies:
       '@ljharb/resumer': 0.0.1
-      '@ljharb/through': 2.3.9
+      '@ljharb/through': 2.3.11
       array.prototype.every: 1.1.5
       call-bind: 1.0.2
       deep-equal: 2.2.2
@@ -2038,7 +2011,7 @@ packages:
       object-is: 1.1.5
       object-keys: 1.1.1
       object.assign: 4.1.4
-      resolve: 2.0.0-next.4
+      resolve: 2.0.0-next.5
       string.prototype.trim: 1.2.8
     dev: true
 
@@ -2103,8 +2076,8 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /type-coverage@2.26.3(typescript@5.2.2):
-    resolution: {integrity: sha512-gDD8D2mnBngM/lJFYv3zNUf0/GGh9u+JkcNiTDljKNpWVnwzZa0fmI38CPJR0oYF7ALnV26xeN+BoyMubS/nwg==}
+  /type-coverage@2.27.0(typescript@5.2.2):
+    resolution: {integrity: sha512-Gs4HcUPrZ+Z7De/eqZfw60SOEjzN30CI94p/2luye0IUI1y9TsWVOkchrqArR3khpN+ACXXQyxsiqH0FdoN48Q==}
     hasBin: true
     dependencies:
       minimist: 1.2.8
@@ -2299,18 +2272,6 @@ packages:
       for-each: 0.3.3
       gopd: 1.0.1
       has-tostringtag: 1.0.0
-    dev: true
-
-  /which-typed-array@1.1.9:
-    resolution: {integrity: sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
-      for-each: 0.3.3
-      gopd: 1.0.1
-      has-tostringtag: 1.0.0
-      is-typed-array: 1.1.10
     dev: true
 
   /which@2.0.2:
