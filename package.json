@@ -45,11 +45,11 @@
   },
   "homepage": "https://github.com/haxibami/remark-jaruby#readme",
   "devDependencies": {
-    "@types/tape": "5.6.3",
+    "@types/tape": "5.6.4",
     "c8": "8.0.1",
     "eslint": "8.53.0",
     "eslint-config-prettier": "9.0.0",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "rehype-stringify": "9.0.4",
     "remark-parse": "10.0.2",
     "remark-rehype": "10.1.0",
