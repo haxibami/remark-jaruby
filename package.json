@@ -57,7 +57,7 @@
     "rimraf": "5.0.5",
     "tape": "5.7.2",
     "type-coverage": "2.27.0",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   },
   "dependencies": {
     "@types/mdast": "^3.0.10",
