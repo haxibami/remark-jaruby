@@ -56,7 +56,7 @@
     "remark-stringify": "10.0.3",
     "rimraf": "5.0.5",
     "tape": "5.7.2",
-    "type-coverage": "2.27.0",
+    "type-coverage": "2.27.1",
     "typescript": "5.3.3"
   },
   "dependencies": {

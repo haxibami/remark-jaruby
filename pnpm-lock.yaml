@@ -53,8 +53,8 @@ devDependencies:
     specifier: 5.7.2
     version: 5.7.2
   type-coverage:
-    specifier: 2.27.0
-    version: 2.27.0(typescript@5.3.3)
+    specifier: 2.27.1
+    version: 2.27.1(typescript@5.3.3)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -2098,8 +2098,8 @@ packages:
       prelude-ls: 1.2.1
     dev: true
 
-  /type-coverage-core@2.26.3(typescript@5.3.3):
-    resolution: {integrity: sha512-rzNdW/tClHJvsUiy787b/UX53bNh1Dn7A5KqZDQjkL3j7iKFv/KnTolxDBBgTPcK4Zn9Ab7WLrik7cXw2oZZqw==}
+  /type-coverage-core@2.27.1(typescript@5.3.3):
+    resolution: {integrity: sha512-W+PMYbhUsq+UWkrb7UkmyO7zF3zt4qZuQukyDM6eaiCIkMJclcVmR3O02clDk4FKpKPbzHictOmoIu3fYp+53g==}
     peerDependencies:
       typescript: 2 || 3 || 4 || 5
     dependencies:
@@ -2111,12 +2111,12 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /type-coverage@2.27.0(typescript@5.3.3):
-    resolution: {integrity: sha512-Gs4HcUPrZ+Z7De/eqZfw60SOEjzN30CI94p/2luye0IUI1y9TsWVOkchrqArR3khpN+ACXXQyxsiqH0FdoN48Q==}
+  /type-coverage@2.27.1(typescript@5.3.3):
+    resolution: {integrity: sha512-KAL2BRRvEACnyh830WoazZ5YJTmFBHEk/mCrJlVxNqjbAPrusJN0c4u3IzRrFMq/yRKsVEvwMp/awQDF4RgLSQ==}
     hasBin: true
     dependencies:
       minimist: 1.2.8
-      type-coverage-core: 2.26.3(typescript@5.3.3)
+      type-coverage-core: 2.27.1(typescript@5.3.3)
     transitivePeerDependencies:
       - typescript
     dev: true
