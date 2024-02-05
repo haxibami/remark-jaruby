@@ -35,4 +35,4 @@ jobs:
             - recursive: false
       - name: Test build
         run: pnpm run test
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
