@@ -63,6 +63,6 @@
     "@types/mdast": "^3.0.10",
     "mdast-util-jaruby": "^0.1.1",
     "micromark-extension-jaruby": "^0.1.0",
-    "unified": "^10.1.1"
+    "unified": "^11.0.0"
   }
 }
