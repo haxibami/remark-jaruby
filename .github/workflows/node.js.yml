@@ -7,32 +7,40 @@ on:
     branches: [main]
 
 env:
-  pnpm-version: latest
+  PNPM_HOME: /home/runner/.local/share/pnpm
 
 jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x, 20.x]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@44c2b7a8a4ea60a981eaca3cf939b5f4305c123b # v4
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Cache pnpm modules
-        uses: actions/cache@v3
+      - name: Configure pnpm path
+        run: echo "${{ env.PNPM_HOME }}" >> $GITHUB_PATH
+      - name: Setup pnpm with corepack
+        run: |
+          corepack enable pnpm
+          corepack prepare pnpm@latest --activate
+          SHELL="$(which bash)" pnpm setup --force
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v4
+        name: Setup pnpm cache
         with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.4.0
-        with:
-          version: ${{ env.pnpm-version }}
-          run_install: |
-            - recursive: false
+            ${{ runner.os }}-pnpm-store-
+      - name: Install node dependencies
+        run: pnpm i --frozen-lockfile
       - name: Test build
         run: pnpm run test
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4

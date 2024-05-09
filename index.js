@@ -1,6 +1,10 @@
+/// <reference types="remark-parse" />
+/// <reference types="remark-stringify" />
+/// <reference types="mdast-util-jaruby" />
+
 /**
  * @typedef {import("mdast").Root} Root
- * @typedef {import("unified").Processor} Processor
+ * @typedef {import("unified").Processor<Root>} Processor
  */
 
 import { jaruby } from "micromark-extension-jaruby";
@@ -12,21 +16,15 @@ import { jarubyFromMarkdown, jarubyToMarkdown } from "mdast-util-jaruby";
  */
 export default function remarkJaruby() {
   const data = this.data();
-  add("micromarkExtensions", jaruby());
-  add("fromMarkdownExtensions", jarubyFromMarkdown());
-  add("toMarkdownExtensions", jarubyToMarkdown());
 
-  /**
-   * @param {string} field
-   * @param {unknown} value
-   */
-  function add(field, value) {
-    const list = /** @type {unknown[]} */ (
-      // Other extensions
-      /* c8 ignore next 2 */
-      data[field] ? data[field] : (data[field] = [])
-    );
+  const micromarkExtensions =
+    data.micromarkExtensions || (data.micromarkExtensions = []);
+  const fromMarkdownExtensions =
+    data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);
+  const toMarkdownExtensions =
+    data.toMarkdownExtensions || (data.toMarkdownExtensions = []);
 
-    list.push(value);
-  }
+  micromarkExtensions.push(jaruby());
+  fromMarkdownExtensions.push(jarubyFromMarkdown());
+  toMarkdownExtensions.push(jarubyToMarkdown());
 }
