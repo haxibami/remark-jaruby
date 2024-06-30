@@ -67,6 +67,6 @@
   "dependencies": {
     "mdast-util-jaruby": "0.1.3",
     "micromark-extension-jaruby": "0.1.4",
-    "unified": "11.0.4"
+    "unified": "11.0.5"
   }
 }
